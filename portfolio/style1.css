@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 2em;
+    color:wheat;
+    cursor: default;
+}
+.logo span {
+    color:goldenrod;
+}
+.navigation {
+    margin-left: 300px;
+}
+.navigation a {
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    
+}
+.navigation a:hover {
+    color: rgb(153, 66, 51);
+}
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('port1.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 0; 
+    text-align: center;
+}
+.content {
+    max-width: 500px;
+    color:whitesmoke;
+    text-align: center;
+}
+.content h2 {
+    font-size: 65px;
+    
+}
+
+.content h2 span {
+    color: #20c030;
+}
+.content h4 {
+    font-size: 50px;
+    color: pink;
+    font-family: "Nabla";
+
+}
+.content p {
+    padding: 10px 0 40px 0;
+    font-size: xx-large;
+    font-family: cursive;
+}
+.info{
+    border: 2px solid #fff; /* Border color for the box */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Space inside the box */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    margin: 20px 0; /* Space around the box */
+    max-width: 600px; /* Max width for better readability */
+    margin: 20px auto; /* Center the box horizontally */
+}
+
+.info h4 {
+    font-size: 50px;
+    color: pink;
+    font-family: "Nabla";
+    margin-bottom: 10px; /* Space between h4 and p */
+}
+
+.info p {
+    font-size: xx-large;
+    font-family: cursive;
+    color: whitesmoke; /* Ensure the text color is readable */
+}
+
+.button{
+    font-size: xx-large;
+    background-color:rgb(109, 15, 109);
+    border-radius: 9.5px;
+    color: whitesmoke;
+    padding: 15px;
+    cursor: pointer;
+}
+.button:hover{
+    color:rgb(212, 255, 0);
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+}
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background:black;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid white;
+    
+}
+
+.social-icons a i {
+    color: #fff;
+}
