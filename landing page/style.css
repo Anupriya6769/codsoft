@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Kalnia+Glaze:wght@100..700&family=Rock+Salt&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background: url('img 1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.6;
+}
+
+header {
+   background: rgba(0, 0, 0, 0.7); 
+    padding: 15px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+    font-size:  55px;
+    margin-bottom: 10px;
+    font-family: "Bungee Spice", sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding:0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+nav ul li a:hover {
+    color: #e94e77; 
+}
+
+div.content {
+    background: rgba(0, 0, 0, 0.7); 
+    padding:90px;
+    margin: 80px auto 0;
+    max-width: 850px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+}
+
+div.content h2 {
+    color: whitesmoke
+    font-size: 49px;
+    margin-bottom: 20px;
+    font-family: "Caveat", cursive;
+}
+
+div.content p {
+    color: #ddd;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.card-button {
+    text-decoration: none;
+}
+
+.card-button button {
+    background: #e94e77; 
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.card-button button:hover {
+    background: #d63c6b; 
+    transform: scale(1.05);
+}
+
+footer.card-footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer.card-footer p {
+    color: #fff;
+    font-size: 20px;
+}
+
+
